@@ -1,0 +1,31 @@
+Project Ideas
+Project 1: The Sleeping Teaching Assistant:
+A university computer science department has a teaching assistant ( TA ) who helps undergraduate students
+with their programming assignments during regular office hours. The TA ’s office is rather small and has room
+for only one desk with a chair and computer. There are three chairs in the hallway outside the office where
+students can sit and wait if the TA is currently helping another student. When there are no students who
+need help during office hours, the TA sits at the desk and takes a nap. If a student arrives during office hours
+and finds the TA sleeping, the student must awaken the TA to ask for help. If a student arrives and finds the
+TA currently helping another student, the student sits on one of the chairs in the hallway and waits. If no
+chairs are available, the student will come back at a later time.
+Using JAVA threads, mutex locks, and semaphores, implement a solution that coordinates the activities of
+the TA and the students. The number of disks in the TA’s room (aka no. of TAs), number of chair for waiting
+students and number of students that have questions should be provided as an input to your program.
+Project 2: Word statistics:
+Write a program that reads all text files form a specific directory and return word statistics (number of words
+per file/directory, longest word, shortest word, number of “is”, “are” and “you”).
+- The program should have a simple GUI
+- The input of the program is a directory
+o It should then search for all text files that reside in that directory
+o There should be an option to check for text files in subdirectories
+- While the program is processing text files, it should display them (file names) and the up-to-date
+statistics. (Statistics should be updated in run time)
+Project 3: Rat in a Maze Problem:
+A Maze is given as 𝑁 × 𝑁 binary matrix of blocks where source block is the upper left most block i.e., maze
+[0][0] and destination block is lower rightmost block i.e., maze[N-1][N-1]. A rat starts from source
+and must reach the destination. The rat can move only in two directions: forward and down. In the maze
+matrix, 0 means the block is a dead end and 1 means the block can be used in the path from source to
+destination. Use Multi-threading to solve this problem.
+You should design a multithreaded JAVA program with the following features:
+- You should enter the dimensions of the maze, then a grid is generated.
+- You should use the grid to specify dead blocks on runtime

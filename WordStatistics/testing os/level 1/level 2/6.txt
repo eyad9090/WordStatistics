@@ -1,0 +1,5 @@
+Project Ideas
+Project 1: The Sleeping Teaching Assistant:
+A university computer science department has a teaching assistan( TA ) who helps undergraduate students
+with their programming assignments during regular office hours. The TA ’s office is rather small and has roomn the TA to ask for help. If a student arrives and finds the number of disks in the TA’s room (aka no. of TAs), number of chair for waiting
+students and number of students that have questions should be provided as an input to your program.

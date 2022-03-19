@@ -1,0 +1,30 @@
+Specs table contains the specifications data. Its ID is just an auto increment column to identify the
+record. Its Name column identify the name of the specification. Its Value column identify the value
+specifies for the corresponding mentioned name.
+Device table contains the devices data. Its ID is just an auto increment column to identify the record. Its
+Name column along with the Type column identifies whether the device either appliance or sensor and
+mentioning its name. Its ParentDeviceID identifies which sensors are contained in which devices. This is
+being representedvia a self-relationship. Its SpecID identifies the specification of each device.
+Worth mentioning that this schema should be used as is. You should not attempt to change anything ,
+e.g., don’t thinkabout creating a bridge (many-to-many) table between Specs and Device tables.
+is you are 
+Specs table contains the specifications data. Its ID is just an auto increment column to identify the
+record. Its Name column identify the name of the specification. Its Value column identify the value
+specifies for the corresponding mentioned name.
+Device table contains the devices data. Its ID is just an auto increment column to identify the record. Its
+Name column along with the Type column identifies whether the device either appliance or sensor and
+mentioning its name. Its ParentDeviceID identifies which sensors are contained in which devices. This is
+being representedvia a self-relationship. Its SpecID identifies the specification of each device.
+Worth mentioning that this schema should be used as is. You should not attempt to change anything ,
+e.g., don’t thinkabout creating a bridge (many-to-many) table between Specs and Device tables.
+is you are 
+Specs table contains the specifications data. Its ID is just an auto increment column to identify the
+record. Its Name column identify the name of the specification. Its Value column identify the value
+specifies for the corresponding mentioned name.
+Device table contains the devices data. Its ID is just an auto increment column to identify the record. Its
+Name column along with the Type column identifies whether the device either appliance or sensor and
+mentioning its name. Its ParentDeviceID identifies which sensors are contained in which devices. This is
+being representedvia a self-relationship. Its SpecID identifies the specification of each device.
+Worth mentioning that this schema should be used as is. You should not attempt to change anything ,
+e.g., don’t thinkabout creating a bridge (many-to-many) table between Specs and Device tables.
+is you are 
